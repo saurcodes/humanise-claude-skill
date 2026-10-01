@@ -1,0 +1,13 @@
+{
+  "name": "humanizer",
+  "description": "Strip AI writing patterns from drafted text so it sounds human. Based on Wikipedia's 'Signs of AI writing' guide: removes AI vocabulary, promotional inflation, em-dash overuse, rule-of-three padding, and hollow sign-offs while preserving meaning and voice.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Saurabh Kumar"
+  },
+  "homepage": "https://github.com/saurcodes/humanise-claude-skill",
+  "repository": "https://github.com/saurcodes/humanise-claude-skill",
+  "license": "MIT",
+  "skills": ["./skills/"],
+  "keywords": ["humanizer", "writing", "editing", "ai-detection", "copywriting"]
+}

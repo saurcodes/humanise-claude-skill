@@ -1,0 +1,209 @@
+{
+  "skill_name": "humanizer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Humanize this: \"It is important to note that our cross-functional teams are fostering a vibrant culture of innovation. The Q3 results serve as a testament to our commitment to excellence. Moving forward, we will continue to leverage synergies and enhance our client-facing deliverables, ensuring alignment with strategic objectives.\"",
+      "expected_output": "Natural, human-sounding corporate text with specific claims, no AI vocabulary words, no promotional inflation, varied sentence structure",
+      "files": [],
+      "assertions": [
+        {
+          "id": "no-important-to-note",
+          "description": "Does not contain 'important to note'",
+          "type": "not_contains",
+          "value": "important to note"
+        },
+        {
+          "id": "no-moving-forward",
+          "description": "Does not contain 'moving forward'",
+          "type": "not_contains",
+          "value": "moving forward"
+        },
+        {
+          "id": "no-testament",
+          "description": "Does not contain 'testament'",
+          "type": "not_contains",
+          "value": "testament"
+        },
+        {
+          "id": "no-vibrant",
+          "description": "Does not contain 'vibrant'",
+          "type": "not_contains",
+          "value": "vibrant"
+        },
+        {
+          "id": "no-fostering",
+          "description": "Does not contain 'fostering'",
+          "type": "not_contains",
+          "value": "fostering"
+        },
+        {
+          "id": "no-synergies",
+          "description": "Does not contain 'synergies'",
+          "type": "not_contains",
+          "value": "synergies"
+        },
+        {
+          "id": "no-leverage",
+          "description": "Does not contain 'leverage' (as business jargon)",
+          "type": "not_contains",
+          "value": "leverage"
+        },
+        {
+          "id": "no-alignment",
+          "description": "Does not contain 'alignment'",
+          "type": "not_contains",
+          "value": "alignment"
+        },
+        {
+          "id": "shorter-or-equal",
+          "description": "Final rewrite word count is <= original (75 words)",
+          "type": "word_count_lte",
+          "value": 75
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Humanize this: \"In today's rapidly evolving technological landscape, AI tools are reshaping how developers ideate, iterate, and deliver. These groundbreaking solutions—nestled at the intersection of research and practice—underscore the pivotal role of automation. Additionally, they highlight the intricate interplay between human creativity and machine learning, showcasing a new era of possibilities.\"",
+      "expected_output": "Plain tech writing without AI vocabulary, fewer em dashes, no rule-of-three, natural voice using is/are/has",
+      "files": [],
+      "assertions": [
+        {
+          "id": "no-em-dash",
+          "description": "Does not contain em dash (—)",
+          "type": "not_contains",
+          "value": "—"
+        },
+        {
+          "id": "no-landscape",
+          "description": "Does not contain 'landscape'",
+          "type": "not_contains",
+          "value": "landscape"
+        },
+        {
+          "id": "no-groundbreaking",
+          "description": "Does not contain 'groundbreaking'",
+          "type": "not_contains",
+          "value": "groundbreaking"
+        },
+        {
+          "id": "no-nestled",
+          "description": "Does not contain 'nestled'",
+          "type": "not_contains",
+          "value": "nestled"
+        },
+        {
+          "id": "no-pivotal",
+          "description": "Does not contain 'pivotal'",
+          "type": "not_contains",
+          "value": "pivotal"
+        },
+        {
+          "id": "no-intricate",
+          "description": "Does not contain 'intricate'",
+          "type": "not_contains",
+          "value": "intricate"
+        },
+        {
+          "id": "no-showcasing",
+          "description": "Does not contain 'showcasing'",
+          "type": "not_contains",
+          "value": "showcasing"
+        },
+        {
+          "id": "no-additionally",
+          "description": "Does not start sentence with 'Additionally,'",
+          "type": "not_contains",
+          "value": "Additionally,"
+        },
+        {
+          "id": "no-intersection-of",
+          "description": "Does not contain 'intersection of'",
+          "type": "not_contains",
+          "value": "intersection of"
+        },
+        {
+          "id": "no-ideate",
+          "description": "Does not contain 'ideate'",
+          "type": "not_contains",
+          "value": "ideate"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Humanize this product announcement. Here's a sample of my writing for voice matching: \"We shipped it. It's not perfect but it works and I'm proud of it. There's a dark mode now, finally.\" --- Announcement to humanize: \"We are thrilled to announce the launch of our groundbreaking platform. This pivotal moment marks a transformative milestone in our journey. The vibrant new interface boasts cutting-edge features that enhance user experience and foster collaboration.\"",
+      "expected_output": "Short punchy sentences matching the voice sample, no promotional language, honest casual tone",
+      "files": [],
+      "assertions": [
+        {
+          "id": "no-thrilled",
+          "description": "Does not contain 'thrilled'",
+          "type": "not_contains",
+          "value": "thrilled"
+        },
+        {
+          "id": "no-groundbreaking",
+          "description": "Does not contain 'groundbreaking'",
+          "type": "not_contains",
+          "value": "groundbreaking"
+        },
+        {
+          "id": "no-pivotal",
+          "description": "Does not contain 'pivotal'",
+          "type": "not_contains",
+          "value": "pivotal"
+        },
+        {
+          "id": "no-milestone",
+          "description": "Does not contain 'milestone'",
+          "type": "not_contains",
+          "value": "milestone"
+        },
+        {
+          "id": "no-vibrant",
+          "description": "Does not contain 'vibrant'",
+          "type": "not_contains",
+          "value": "vibrant"
+        },
+        {
+          "id": "no-boasts",
+          "description": "Does not contain 'boasts'",
+          "type": "not_contains",
+          "value": "boasts"
+        },
+        {
+          "id": "no-cutting-edge",
+          "description": "Does not contain 'cutting-edge'",
+          "type": "not_contains",
+          "value": "cutting-edge"
+        },
+        {
+          "id": "no-foster",
+          "description": "Does not contain 'foster'",
+          "type": "not_contains",
+          "value": "foster"
+        },
+        {
+          "id": "no-transformative",
+          "description": "Does not contain 'transformative'",
+          "type": "not_contains",
+          "value": "transformative"
+        },
+        {
+          "id": "short-sentences",
+          "description": "Average sentence length in final rewrite <= 12 words (matching punchy voice sample)",
+          "type": "avg_sentence_length_lte",
+          "value": 12
+        },
+        {
+          "id": "no-em-dash",
+          "description": "Does not contain em dash (—)",
+          "type": "not_contains",
+          "value": "—"
+        }
+      ]
+    }
+  ]
+}

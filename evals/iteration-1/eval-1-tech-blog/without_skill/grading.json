@@ -1,0 +1,59 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-1-tech-blog",
+  "pass_rate": 0.9,
+  "passed": 9,
+  "total": 10,
+  "expectations": [
+    {
+      "text": "Does not contain em dash (\u2014)",
+      "passed": false,
+      "evidence": "Text CONTAINS '\u2014'. Context: '... changing how developers work \u2014 how they come up with ideas, ...'"
+    },
+    {
+      "text": "Does not contain 'landscape'",
+      "passed": true,
+      "evidence": "Text does not contain 'landscape'"
+    },
+    {
+      "text": "Does not contain 'groundbreaking'",
+      "passed": true,
+      "evidence": "Text does not contain 'groundbreaking'"
+    },
+    {
+      "text": "Does not contain 'nestled'",
+      "passed": true,
+      "evidence": "Text does not contain 'nestled'"
+    },
+    {
+      "text": "Does not contain 'pivotal'",
+      "passed": true,
+      "evidence": "Text does not contain 'pivotal'"
+    },
+    {
+      "text": "Does not contain 'intricate'",
+      "passed": true,
+      "evidence": "Text does not contain 'intricate'"
+    },
+    {
+      "text": "Does not contain 'showcasing'",
+      "passed": true,
+      "evidence": "Text does not contain 'showcasing'"
+    },
+    {
+      "text": "Does not start sentence with 'Additionally,'",
+      "passed": true,
+      "evidence": "Text does not contain 'Additionally,'"
+    },
+    {
+      "text": "Does not contain 'intersection of'",
+      "passed": true,
+      "evidence": "Text does not contain 'intersection of'"
+    },
+    {
+      "text": "Does not contain 'ideate'",
+      "passed": true,
+      "evidence": "Text does not contain 'ideate'"
+    }
+  ]
+}

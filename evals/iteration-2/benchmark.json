@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "skill_name": "humanizer",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-04-29T05:59:21Z",
+    "evals_run": [
+      0,
+      1,
+      2
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 9,
+        "failed": 0,
+        "total": 9,
+        "time_seconds": 0.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Does not contain 'important to note'",
+          "passed": true,
+          "evidence": "Text does not contain 'important to note'"
+        },
+        {
+          "text": "Does not contain 'moving forward'",
+          "passed": true,
+          "evidence": "Text does not contain 'moving forward'"
+        },
+        {
+          "text": "Does not contain 'testament'",
+          "passed": true,
+          "evidence": "Text does not contain 'testament'"
+        },
+        {
+          "text": "Does not contain 'vibrant'",
+          "passed": true,
+          "evidence": "Text does not contain 'vibrant'"
+        },
+        {
+          "text": "Does not contain 'fostering'",
+          "passed": true,
+          "evidence": "Text does not contain 'fostering'"
+        },
+        {
+          "text": "Does not contain 'synergies'",
+          "passed": true,
+          "evidence": "Text does not contain 'synergies'"
+        },
+        {
+          "text": "Does not contain 'leverage' (as business jargon)",
+          "passed": true,
+          "evidence": "Text does not contain 'leverage'"
+        },
+        {
+          "text": "Does not contain 'alignment'",
+          "passed": true,
+          "evidence": "Text does not contain 'alignment'"
+        },
+        {
+          "text": "Final rewrite word count is <= original (75 words)",
+          "passed": true,
+          "evidence": "Final version word count: 18 (limit: 75)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.9,
+        "passed": 9,
+        "failed": 1,
+        "total": 10,
+        "time_seconds": 0.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Does not contain em dash (\u2014)",
+          "passed": false,
+          "evidence": "Text CONTAINS '\u2014'. Context: '...gment does that a model can't \u2014 that's still an open question...'"
+        },
+        {
+          "text": "Does not contain 'landscape'",
+          "passed": true,
+          "evidence": "Text does not contain 'landscape'"
+        },
+        {
+          "text": "Does not contain 'groundbreaking'",
+          "passed": true,
+          "evidence": "Text does not contain 'groundbreaking'"
+        },
+        {
+          "text": "Does not contain 'nestled'",
+          "passed": true,
+          "evidence": "Text does not contain 'nestled'"
+        },
+        {
+          "text": "Does not contain 'pivotal'",
+          "passed": true,
+          "evidence": "Text does not contain 'pivotal'"
+        },
+        {
+          "text": "Does not contain 'intricate'",
+          "passed": true,
+          "evidence": "Text does not contain 'intricate'"
+        },
+        {
+          "text": "Does not contain 'showcasing'",
+          "passed": true,
+          "evidence": "Text does not contain 'showcasing'"
+        },
+        {
+          "text": "Does not start sentence with 'Additionally,'",
+          "passed": true,
+          "evidence": "Text does not contain 'Additionally,'"
+        },
+        {
+          "text": "Does not contain 'intersection of'",
+          "passed": true,
+          "evidence": "Text does not contain 'intersection of'"
+        },
+        {
+          "text": "Does not contain 'ideate'",
+          "passed": true,
+          "evidence": "Text does not contain 'ideate'"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 11,
+        "failed": 0,
+        "total": 11,
+        "time_seconds": 0.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Does not contain 'thrilled'",
+          "passed": true,
+          "evidence": "Text does not contain 'thrilled'"
+        },
+        {
+          "text": "Does not contain 'groundbreaking'",
+          "passed": true,
+          "evidence": "Text does not contain 'groundbreaking'"
+        },
+        {
+          "text": "Does not contain 'pivotal'",
+          "passed": true,
+          "evidence": "Text does not contain 'pivotal'"
+        },
+        {
+          "text": "Does not contain 'milestone'",
+          "passed": true,
+          "evidence": "Text does not contain 'milestone'"
+        },
+        {
+          "text": "Does not contain 'vibrant'",
+          "passed": true,
+          "evidence": "Text does not contain 'vibrant'"
+        },
+        {
+          "text": "Does not contain 'boasts'",
+          "passed": true,
+          "evidence": "Text does not contain 'boasts'"
+        },
+        {
+          "text": "Does not contain 'cutting-edge'",
+          "passed": true,
+          "evidence": "Text does not contain 'cutting-edge'"
+        },
+        {
+          "text": "Does not contain 'foster'",
+          "passed": true,
+          "evidence": "Text does not contain 'foster'"
+        },
+        {
+          "text": "Does not contain 'transformative'",
+          "passed": true,
+          "evidence": "Text does not contain 'transformative'"
+        },
+        {
+          "text": "Average sentence length in final rewrite <= 12 words (matching punchy voice sample)",
+          "passed": true,
+          "evidence": "Average sentence length: 7.2 words (limit: 12)"
+        },
+        {
+          "text": "Does not contain em dash (\u2014)",
+          "passed": true,
+          "evidence": "Text does not contain '\u2014'"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 9,
+        "failed": 0,
+        "total": 9,
+        "time_seconds": 0.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Does not contain 'important to note'",
+          "passed": true,
+          "evidence": "Text does not contain 'important to note'"
+        },
+        {
+          "text": "Does not contain 'moving forward'",
+          "passed": true,
+          "evidence": "Text does not contain 'moving forward'"
+        },
+        {
+          "text": "Does not contain 'testament'",
+          "passed": true,
+          "evidence": "Text does not contain 'testament'"
+        },
+        {
+          "text": "Does not contain 'vibrant'",
+          "passed": true,
+          "evidence": "Text does not contain 'vibrant'"
+        },
+        {
+          "text": "Does not contain 'fostering'",
+          "passed": true,
+          "evidence": "Text does not contain 'fostering'"
+        },
+        {
+          "text": "Does not contain 'synergies'",
+          "passed": true,
+          "evidence": "Text does not contain 'synergies'"
+        },
+        {
+          "text": "Does not contain 'leverage' (as business jargon)",
+          "passed": true,
+          "evidence": "Text does not contain 'leverage'"
+        },
+        {
+          "text": "Does not contain 'alignment'",
+          "passed": true,
+          "evidence": "Text does not contain 'alignment'"
+        },
+        {
+          "text": "Final rewrite word count is <= original (75 words)",
+          "passed": true,
+          "evidence": "Final version word count: 18 (limit: 75)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 10,
+        "failed": 0,
+        "total": 10,
+        "time_seconds": 0.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Does not contain em dash (\u2014)",
+          "passed": true,
+          "evidence": "Text does not contain '\u2014'"
+        },
+        {
+          "text": "Does not contain 'landscape'",
+          "passed": true,
+          "evidence": "Text does not contain 'landscape'"
+        },
+        {
+          "text": "Does not contain 'groundbreaking'",
+          "passed": true,
+          "evidence": "Text does not contain 'groundbreaking'"
+        },
+        {
+          "text": "Does not contain 'nestled'",
+          "passed": true,
+          "evidence": "Text does not contain 'nestled'"
+        },
+        {
+          "text": "Does not contain 'pivotal'",
+          "passed": true,
+          "evidence": "Text does not contain 'pivotal'"
+        },
+        {
+          "text": "Does not contain 'intricate'",
+          "passed": true,
+          "evidence": "Text does not contain 'intricate'"
+        },
+        {
+          "text": "Does not contain 'showcasing'",
+          "passed": true,
+          "evidence": "Text does not contain 'showcasing'"
+        },
+        {
+          "text": "Does not start sentence with 'Additionally,'",
+          "passed": true,
+          "evidence": "Text does not contain 'Additionally,'"
+        },
+        {
+          "text": "Does not contain 'intersection of'",
+          "passed": true,
+          "evidence": "Text does not contain 'intersection of'"
+        },
+        {
+          "text": "Does not contain 'ideate'",
+          "passed": true,
+          "evidence": "Text does not contain 'ideate'"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 11,
+        "failed": 0,
+        "total": 11,
+        "time_seconds": 0.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Does not contain 'thrilled'",
+          "passed": true,
+          "evidence": "Text does not contain 'thrilled'"
+        },
+        {
+          "text": "Does not contain 'groundbreaking'",
+          "passed": true,
+          "evidence": "Text does not contain 'groundbreaking'"
+        },
+        {
+          "text": "Does not contain 'pivotal'",
+          "passed": true,
+          "evidence": "Text does not contain 'pivotal'"
+        },
+        {
+          "text": "Does not contain 'milestone'",
+          "passed": true,
+          "evidence": "Text does not contain 'milestone'"
+        },
+        {
+          "text": "Does not contain 'vibrant'",
+          "passed": true,
+          "evidence": "Text does not contain 'vibrant'"
+        },
+        {
+          "text": "Does not contain 'boasts'",
+          "passed": true,
+          "evidence": "Text does not contain 'boasts'"
+        },
+        {
+          "text": "Does not contain 'cutting-edge'",
+          "passed": true,
+          "evidence": "Text does not contain 'cutting-edge'"
+        },
+        {
+          "text": "Does not contain 'foster'",
+          "passed": true,
+          "evidence": "Text does not contain 'foster'"
+        },
+        {
+          "text": "Does not contain 'transformative'",
+          "passed": true,
+          "evidence": "Text does not contain 'transformative'"
+        },
+        {
+          "text": "Average sentence length in final rewrite <= 12 words (matching punchy voice sample)",
+          "passed": true,
+          "evidence": "Average sentence length: 7.2 words (limit: 12)"
+        },
+        {
+          "text": "Does not contain em dash (\u2014)",
+          "passed": true,
+          "evidence": "Text does not contain '\u2014'"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "old_skill": {
+      "pass_rate": {
+        "mean": 0.9667,
+        "stddev": 0.0577,
+        "min": 0.9,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "delta": {
+      "pass_rate": "-0.03",
+      "time_seconds": "+0.0",
+      "tokens": "+0"
+    }
+  },
+  "notes": []
+}

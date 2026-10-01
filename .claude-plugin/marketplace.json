@@ -1,0 +1,24 @@
+{
+  "name": "humanizer",
+  "owner": {
+    "name": "Saurabh Kumar"
+  },
+  "metadata": {
+    "description": "Humanizer plugin: remove AI writing patterns from existing text"
+  },
+  "plugins": [
+    {
+      "name": "humanizer",
+      "source": "./",
+      "description": "Strip AI writing patterns from drafted text so it sounds human. Removes AI vocabulary, promotional inflation, em-dash overuse, and hollow structure while preserving meaning and voice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Saurabh Kumar"
+      },
+      "homepage": "https://github.com/saurcodes/humanise-claude-skill",
+      "repository": "https://github.com/saurcodes/humanise-claude-skill",
+      "license": "MIT",
+      "keywords": ["humanizer", "writing", "editing", "ai-detection", "copywriting"]
+    }
+  ]
+}

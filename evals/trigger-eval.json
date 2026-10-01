@@ -1,0 +1,82 @@
+[
+  {
+    "query": "hey i used chatgpt to write an email to my team about q3 results and it sounds way too corporate. can you fix it? 'It is important to note that our cross-functional teams have demonstrated a testament to excellence, ensuring alignment with strategic objectives and fostering a vibrant culture of innovation.'",
+    "should_trigger": true
+  },
+  {
+    "query": "this blog post i wrote with claude sounds super AI-ish and i need it to sound more like me. 'In today's rapidly evolving technological landscape, AI tools are reshaping how developers ideate, iterate, and deliver groundbreaking solutions that underscore the pivotal role of automation.'",
+    "should_trigger": true
+  },
+  {
+    "query": "linkedin post sounds like a robot wrote it, need to fix before i publish: 'It is my profound honor to announce that I have accepted a new position at Innovatech. This marks a pivotal milestone in my professional journey, serving as a testament to my enduring commitment to excellence.'",
+    "should_trigger": true
+  },
+  {
+    "query": "product announcement sounds like every other boring press release. 'We are thrilled to announce the launch of our groundbreaking platform. The vibrant new interface boasts cutting-edge features that foster collaboration and enhance the user experience.' make it sound human",
+    "should_trigger": true
+  },
+  {
+    "query": "I wrote an architecture document which is completely technical but it's shows too much AI part like too much elaboration and assumption of technical tools and technologies which were not getting used by us at all.",
+    "should_trigger": true
+  },
+  {
+    "query": "my team used AI to write this technical doc and now it's unreadable. too many em dashes, 'showcasing the intricate interplay between human creativity and machine learning', 'highlighting the pivotal role of automation'. can you edit the AI out of it?",
+    "should_trigger": true
+  },
+  {
+    "query": "wrote this cover letter with ai help but now it sounds generic — 'I am deeply passionate about leveraging my skills to foster innovation and contribute to your organization's vibrant culture of excellence.' can you kill the ai-speak and make it sound like me",
+    "should_trigger": true
+  },
+  {
+    "query": "can you take the ai out of this? 'Additionally, it is worth noting that these groundbreaking developments serve as a testament to the enduring commitment of our team, highlighting the intricate tapestry of skills and dedication that has shaped our journey.'",
+    "should_trigger": true
+  },
+  {
+    "query": "this paragraph reads like chatgpt wrote it. the em dashes, the word 'pivotal' twice, 'underscores the vital role'... can you rewrite it to sound like a real person wrote it?",
+    "should_trigger": true
+  },
+  {
+    "query": "i need to strip the ai from this memo before it goes to leadership. it's got 'it is important to note', 'moving forward we will continue to leverage', 'vibrant cross-functional teams'. just make it sound normal",
+    "should_trigger": true
+  },
+  {
+    "query": "i think this blog post might have been written by AI — it has a lot of em dashes and uses the word 'pivotal' three times. can you help me figure out if it is AI-generated?",
+    "should_trigger": false
+  },
+  {
+    "query": "can you help me make this email sound more professional and polished? i tend to write too casually and i need this to sound like it was written by a senior executive, not a random person",
+    "should_trigger": false
+  },
+  {
+    "query": "i need to rewrite this paragraph to fix grammar mistakes: 'Their going to the conference tommorow and want to present there findings to the board. Its going to be a great oppertunity.'",
+    "should_trigger": false
+  },
+  {
+    "query": "can you summarize this 5-page Q3 performance report into 3-4 bullet points for the exec team?",
+    "should_trigger": false
+  },
+  {
+    "query": "translate this english press release into spanish for our latin american team: 'We are pleased to announce the expansion of our services into the South American market.'",
+    "should_trigger": false
+  },
+  {
+    "query": "this email is way too long and rambling, like 800 words for something that should be 3 sentences. can you cut it down without losing the key points?",
+    "should_trigger": false
+  },
+  {
+    "query": "i'm writing a proposal for a government contract and it needs to sound formal and authoritative. my draft is too casual — can you make it sound more official and corporate?",
+    "should_trigger": false
+  },
+  {
+    "query": "can you restructure this technical doc? i want the installation section before configuration, and the troubleshooting section moved to an appendix",
+    "should_trigger": false
+  },
+  {
+    "query": "this paragraph is too vague — just hand-wavy assertions with no evidence. can you add specific data points, examples, or citations to back up the claims?",
+    "should_trigger": false
+  },
+  {
+    "query": "i'm building an ai writing detector and want to understand the common patterns that give away ai-generated text. what are the most reliable signals to look for?",
+    "should_trigger": false
+  }
+]

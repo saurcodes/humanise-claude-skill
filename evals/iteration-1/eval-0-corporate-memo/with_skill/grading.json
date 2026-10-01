@@ -1,0 +1,54 @@
+{
+  "eval_id": 0,
+  "eval_name": "eval-0-corporate-memo",
+  "pass_rate": 1.0,
+  "passed": 9,
+  "total": 9,
+  "expectations": [
+    {
+      "text": "Does not contain 'important to note'",
+      "passed": true,
+      "evidence": "Text does not contain 'important to note'"
+    },
+    {
+      "text": "Does not contain 'moving forward'",
+      "passed": true,
+      "evidence": "Text does not contain 'moving forward'"
+    },
+    {
+      "text": "Does not contain 'testament'",
+      "passed": true,
+      "evidence": "Text does not contain 'testament'"
+    },
+    {
+      "text": "Does not contain 'vibrant'",
+      "passed": true,
+      "evidence": "Text does not contain 'vibrant'"
+    },
+    {
+      "text": "Does not contain 'fostering'",
+      "passed": true,
+      "evidence": "Text does not contain 'fostering'"
+    },
+    {
+      "text": "Does not contain 'synergies'",
+      "passed": true,
+      "evidence": "Text does not contain 'synergies'"
+    },
+    {
+      "text": "Does not contain 'leverage' (as business jargon)",
+      "passed": true,
+      "evidence": "Text does not contain 'leverage'"
+    },
+    {
+      "text": "Does not contain 'alignment'",
+      "passed": true,
+      "evidence": "Text does not contain 'alignment'"
+    },
+    {
+      "text": "Final rewrite word count is <= original (75 words)",
+      "passed": true,
+      "evidence": "Final version word count: 18 (limit: 75)"
+    }
+  ]
+}

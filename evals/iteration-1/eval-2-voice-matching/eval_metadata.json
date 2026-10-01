@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "voice-matching",
+  "prompt": "Humanize this product announcement. Here's a sample of my writing for voice matching: \"We shipped it. It's not perfect but it works and I'm proud of it. There's a dark mode now, finally.\" --- Announcement to humanize: \"We are thrilled to announce the launch of our groundbreaking platform. This pivotal moment marks a transformative milestone in our journey. The vibrant new interface boasts cutting-edge features that enhance user experience and foster collaboration.\"",
+  "assertions": []
+}

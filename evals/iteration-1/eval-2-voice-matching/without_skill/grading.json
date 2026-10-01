@@ -1,0 +1,64 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-2-voice-matching",
+  "pass_rate": 1.0,
+  "passed": 11,
+  "total": 11,
+  "expectations": [
+    {
+      "text": "Does not contain 'thrilled'",
+      "passed": true,
+      "evidence": "Text does not contain 'thrilled'"
+    },
+    {
+      "text": "Does not contain 'groundbreaking'",
+      "passed": true,
+      "evidence": "Text does not contain 'groundbreaking'"
+    },
+    {
+      "text": "Does not contain 'pivotal'",
+      "passed": true,
+      "evidence": "Text does not contain 'pivotal'"
+    },
+    {
+      "text": "Does not contain 'milestone'",
+      "passed": true,
+      "evidence": "Text does not contain 'milestone'"
+    },
+    {
+      "text": "Does not contain 'vibrant'",
+      "passed": true,
+      "evidence": "Text does not contain 'vibrant'"
+    },
+    {
+      "text": "Does not contain 'boasts'",
+      "passed": true,
+      "evidence": "Text does not contain 'boasts'"
+    },
+    {
+      "text": "Does not contain 'cutting-edge'",
+      "passed": true,
+      "evidence": "Text does not contain 'cutting-edge'"
+    },
+    {
+      "text": "Does not contain 'foster'",
+      "passed": true,
+      "evidence": "Text does not contain 'foster'"
+    },
+    {
+      "text": "Does not contain 'transformative'",
+      "passed": true,
+      "evidence": "Text does not contain 'transformative'"
+    },
+    {
+      "text": "Average sentence length in final rewrite <= 12 words (matching punchy voice sample)",
+      "passed": true,
+      "evidence": "Average sentence length: 9.5 words (limit: 12)"
+    },
+    {
+      "text": "Does not contain em dash (\u2014)",
+      "passed": true,
+      "evidence": "Text does not contain '\u2014'"
+    }
+  ]
+}
